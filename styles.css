@@ -4,6 +4,10 @@ body{
 	padding: 0px;
 	background-color: #edeef0;
 }
+::selection{
+	color: green;
+	background-color:  #e1e5eb;
+}
 header{
 	background-color: #507299;
 	position: fixed;
@@ -42,10 +46,6 @@ li:hover{
 	margin: 15px;
 	padding: 20px;
 	text-align: justify;
-}
-.block::selection{
-	color: green;
-	background-color:  #e1e5eb;
 }
 .line{
 	background-color: #d0d0d0;
