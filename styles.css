@@ -86,7 +86,21 @@ footer{
 	margin-top: 2050px;
 	flex: 0 0 auto;
 }
-@media(max-width: 1790px){
+@media(max-width: 1750px){	
+	#rightaside{
+		margin-top: 5px;
+		width: 190px;
+		right: 200px;
+	}
+	#leftaside{
+		margin-left: 0;
+	}	
+	#content{
+		margin-left:0;
+		float: left;
+	}
+}
+@media(max-width: 1200px){
 	#rightaside{
 		display:none;
 	}
